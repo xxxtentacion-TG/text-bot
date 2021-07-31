@@ -13,17 +13,16 @@ bot = Client(
 def start(client, message):
     message.reply(f"hey bruhh Dont disturb meh"),
     replymarkup= InlineKeyboardMarkup(
-      [
-        [
-          InlineKeyboardButton('Owner', url='https://t.me/XXXTENTACION_OF_TG'),
-          InlineKeyboardButton('Group', url='https://t.me/MGMOVIEGRAM')
-        
-        ],
-        [
-          InlineKeyboardButton('Owner', url='https://t.me/XXXTENTACION_OF_TG')
-        ]
+    [
+         [
+            InlineKeyboardButton('Owner', url='https://t.me/XXXTENTACION_OF_TG'),
+            InlineKeyboardButton('group', url='https://t.me/MGMOVIEGRAM')
+         ],
+         [
+            InlineKeyboardButton('help', callback_data="help"),
+         ]
       ]
+      )
      )
-    )
 bot.run()
           
