@@ -1,6 +1,8 @@
 import os
 from pyrogram import Client, filters
-from pyrogram.types  import ReplyKeyboradMarkup, InlineKeyboardMarkup, InlineKeyboardButton, Callbackquery, message
+from pyrogram.types import InlineKeyboardMarkup
+from pyrogram.types import InlineKeyboardButton
+from pyrogram.types import CallbackQuery
 
 bot = Client(
   "message-bot",
