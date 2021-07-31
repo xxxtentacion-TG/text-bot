@@ -16,12 +16,13 @@ def start(client, message):
       [
         [
           InlineKeyboardButton('Owner', url='https://t.me/XXXTENTACION_OF_TG'),
-        InlineKeyboardButton('Group', url='https://t.me/MGMOVIEGRAM'),
+          InlineKeyboardButton('Group', url='https://t.me/MGMOVIEGRAM')
         
         ],
         [
           InlineKeyboardButton('Owner', url='https://t.me/XXXTENTACION_OF_TG')
         ]
+      ]
         )
         )
 bot.run()
