@@ -13,17 +13,18 @@ bot = Client(
   
 @bot.on_message(filters.command(['start']))
 def start(client, message):
-    message.reply(f"hey bruhh Dont disturb meh"),
-    replymarkup= InlineKeyboardMarkup(
-    [
-         [
-            InlineKeyboardButton('Owner', url='https://t.me/XXXTENTACION_OF_TG'),
-            InlineKeyboardButton('group', url='https://t.me/MGMOVIEGRAM')
-         ],
-         [
-            InlineKeyboardButton('help', callback_data="help"),
-         ]
+    message.reply(f"hey bruhh how are you)",
+    reply_markup=InlineKeyboardMarkup(
+      [
+        [
+          InlineKeyboardButton("owner" url="https://t.me/XXXTENTACION_TG"),
+          InlineKeyboardButton("GROUP" url="https://t.me/XXXTENTACION_TG")
+        ],
+        [
+          InlineKeyboardButton("CHANNEL" url="https://t.me/XXXTENTACION_TG")
+        ]
       ]
-     )
+      )
+      
 bot.run()
           
