@@ -17,11 +17,11 @@ def start(client, message):
     reply_markup=InlineKeyboardMarkup(
       [
         [
-          InlineKeyboardButton("owner" url="https://t.me/XXXTENTACION_TG"),
-          InlineKeyboardButton("GROUP" url="https://t.me/XXXTENTACION_TG")
+          InlineKeyboardButton('𝙂𝙍𝙊𝙐𝙋 💬', url='https://t.me/MGMOVIEGRAM'),
+          InlineKeyboardButton('𝙂𝙍𝙊𝙐𝙋 💬', url='https://t.me/MGMOVIEGRAM')
         ],
         [
-          InlineKeyboardButton("CHANNEL" url="https://t.me/XXXTENTACION_TG")
+          InlineKeyboardButton('𝙂𝙍𝙊𝙐𝙋 💬', url='https://t.me/MGMOVIEGRAM')
         ]
       ]
       )
